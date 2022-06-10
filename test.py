@@ -19,20 +19,15 @@
 
 # for a in range(0, 3):
 #     print(a)
-# import time
-# import os
-# from art import logo
-# logo1 = ""
-# for afisare in range(len(logo)):
-#     logo1 = logo1 + logo[afisare]
-#     if afisare < 7:
-#         time.sleep(1)
-#     elif afisare > 7  and afisare < 18:
-#         time.sleep(0.3)
-#     os.system('cls')
-#     print(logo1)
-
-
-lista = ["a", 2, 4.5, 4]
-
-print(str(lista))
+import time
+import os
+from art import logo
+logo1 = ""
+for afisare in range(len(logo)):
+    logo1 = logo1 + logo[afisare]
+    if afisare < 7:
+        time.sleep(1)
+    elif afisare > 7  and afisare < 18:
+        time.sleep(0.3)
+    os.system('cls')
+    print(logo1)
